@@ -9,6 +9,7 @@ namespace TestApp {
 
         private void button1_Click(object sender, EventArgs e) {
             MessageBox.Show("Button clicked!");
+            System.Diagnostics.Debug.WriteLine("Test message");
 
             //MessageBox.Show("Second MessageBox!");
         }
